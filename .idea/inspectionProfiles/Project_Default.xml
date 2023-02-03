@@ -1,0 +1,53 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="PyPackageRequirementsInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredPackages">
+        <value>
+          <list size="5">
+            <item index="0" class="java.lang.String" itemvalue="certifi" />
+            <item index="1" class="java.lang.String" itemvalue="charset-normalizer" />
+            <item index="2" class="java.lang.String" itemvalue="requests" />
+            <item index="3" class="java.lang.String" itemvalue="urllib3" />
+            <item index="4" class="java.lang.String" itemvalue="idna" />
+          </list>
+        </value>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyPep8Inspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="E402" />
+          <option value="E111" />
+          <option value="E302" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyPep8NamingInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="N801" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="object.status_code" />
+          <option value="list.json" />
+          <option value="models.json_db" />
+          <option value="models.db" />
+          <option value="pymysql.cursors" />
+          <option value="dal._auth" />
+          <option value="myproject.app1.admin.site.urls" />
+          <option value="myproject.myproject.urls.admin" />
+          <option value="django.db.models.fields.CharField.__add__" />
+          <option value="str.append" />
+          <option value="mini_django_v44.jobs.views.jobs" />
+          <option value="mini_django_v44.jobs.views.portal_details.objects" />
+          <option value="django.db.models.model" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
